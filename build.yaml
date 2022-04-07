@@ -17,3 +17,5 @@ include:
     shield: tightyl_left
   - board: nrfmicro_11
     shield: tightyl_right
+  - board: nrfmicro_11
+    shield: settings_reset
