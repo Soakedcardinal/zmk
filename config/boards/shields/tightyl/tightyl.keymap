@@ -51,13 +51,12 @@
         }; 
 
         adjust_layer {
+
+			// Phonetic Bluetooth Profiles
+			//	A = Arch
+			//	W = Windows
+			//  Backspace = clear current profile
 			bindings = <
-
-				// Phonetic Bluetooth Profiles
-				//	A = Arch
-				//	W = Windows
-				//  Backspace = clear current profile
-
 				&none 	   &none        &bt BT_SEL 1 &none  &none &none  			  &none &none &none  &none       &none &none
 				&bt BT_CLR &bt BT_SEL 0 &none   	 &none  &none &none      		  &none &none &kp N1 &none       &none &none
 				&none 	   &none 	    &none 		 &none  &none &none            	  &none &none &none  &none       &none &none
