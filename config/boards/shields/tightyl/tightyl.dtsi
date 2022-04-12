@@ -35,17 +35,17 @@
 	};
 
 	backlight: gpioleds {
-        compatible = "gpio-leds";
-        label = "Backlight LEDs";
-        gpio_led_0 {
-            gpios = <&pro_micro 20 GPIO_ACTIVE_HIGH>;
-            label = "Backlight LED 0";
-        };
-    };
+       compatible = "gpio-leds";
+      label = "Backlight LEDs";
+      gpio_led_0 {
+          gpios = <&pro_micro_d 42 GPIO_ACTIVE_HIGH>;
+          label = "Backlight LED 0";
+      };
+  };
 
 };
 
-//add the CDC ACM node
+//add the CDC ACM node for usb debugging
 &usbd {
   status = "okay";
   cdc_acm_uart: cdc_acm_uart {
