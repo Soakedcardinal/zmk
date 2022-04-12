@@ -56,6 +56,7 @@
 			//	A = Arch
 			//	W = Windows
 			//  Backspace = clear current profile
+
 			bindings = <
 				&none 	   &none        &bt BT_SEL 1 &none  &none &none  			  &none &none &none  &none       &none &none
 				&bt BT_CLR &bt BT_SEL 0 &none   	 &none  &none &none      		  &none &none &kp N1 &none       &none &none
@@ -64,12 +65,16 @@
             >;
 		};
 
+		
 		gaming_layer {
+
+			// no funky layer business on left hand. Right hand layers are kept to allow typing special characters
+
 			bindings = <
-				&kp TAB   &kp Q &kp W    &kp E   &kp R    &kp T         		   		&kp Y     &kp U    &kp I     &kp O    &kp P          &kp BSLH
-				&kp BSPC  &kp A	&kp S    &kp D   &kp F    &kp G             	   		&kp H     &kp J    &kp K     &kp L    &lt NAV SEMI   &kp SQT
-				&kp LSHFT &kp Z &kp X    &kp C   &kp V    &kp B                	 	    &kp N     &kp M    &kp COMMA &kp DOT  &kp FSLH 	   &mt RSHFT RPAR
-								&kp LALT &kp ESC &kp LGUI &kp RET &kp SPACE 	&kp RET &lt SPACE &kp RGUI &kp N0    &tog GAME
+				&kp TAB   &kp Q &kp W    &kp E   &kp R    &kp T         		   		&kp Y         &kp U    &kp I     &kp O    &kp P          &kp BSLH
+				&kp BSPC  &kp A	&kp S    &kp D   &kp F    &kp G             	   		&kp H         &kp J    &kp K     &kp L    &lt NAV SEMI   &kp SQT
+				&kp LSHFT &kp Z &kp X    &kp C   &kp V    &kp B                	 	    &kp N         &kp M    &kp COMMA &kp DOT  &kp FSLH 	    &mt RSHFT RPAR
+								&kp LALT &kp ESC &kp LGUI &kp RET &kp SPACE 	&mo LWR &lt RSE SPACE &kp RGUI &kp N0    &tog GAME
             >;
 		};
     };
