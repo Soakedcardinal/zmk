@@ -2,3 +2,6 @@ keymap.code-workspace
 .vscode
 # binaries
 *.uf2
+settings_reset-nrfmicro_11-zmk.uf2
+tightyl_right-nrfmicro_11-zmk.uf2
+tightyl_left-nrfmicro_11-zmk.uf2
