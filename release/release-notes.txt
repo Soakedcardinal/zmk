@@ -1,0 +1,7 @@
+
+
+TIGHTYL KEYBOARD ZMK FIRMWARE
+
+Compiled on Sat Mar 11 03:02:36 PM EST 2023 by duncan
+
+
