@@ -23,11 +23,11 @@
             >;
         };
         lower_layer {
-			bindings = <
-				&kp TILDE &kp N1    &trans  &trans     &kp PRCNT &trans                 		 &trans   &trans &kp UNDER &trans &trans &trans
-				&kp DEL   &kp AT    &trans  &trans     &trans    &kp DLLR      		   	 		 &kp HASH &trans &trans    &trans &trans &trans
-				&kp LBKT  &kp LC(Z) &trans  &kp CARET  &trans    &kp EXCL              			 &trans   &trans &trans    &trans &trans &kp RBKT
-									&kp LT  &kp GT     &trans    &none    &mo ADJ 	   	&none    &mo ADJ   &none  &trans    &none
+			bindings = <		
+				&kp TILDE &kp N1    &trans  &trans     &kp PRCNT &trans                 										 &trans   &trans &kp UNDER &trans &trans &trans
+				&kp DEL   &kp AT    &trans  &trans     &trans    &kp DLLR      		   	 										 &kp HASH &trans &trans    &trans &trans &trans
+				&kp LBKT  &kp LC(Z) &trans  &kp CARET  &trans    &kp EXCL              											 &trans   &trans &trans    &trans &trans &kp RBKT
+									&kp LT  &kp GT     					&trans    &none    &mo ADJ 	   	&none    &mo ADJ   &none  						   &trans &none
             >;
         };
         raise_layer {
@@ -69,9 +69,9 @@
 		};
 		fkey_layer {
 			bindings = <
-				&trans  &trans &trans &trans &trans &trans      	    				 				&kp F16   &kp F17 &kp F7  &kp F8 &kp F9  &kp F10 &kp F11
-				&trans  &trans &trans &trans &trans &trans      	 					 				&kp F18 &kp F19 &kp F4  &kp F5 &kp F6  &kp F12 &kp F13
-				&trans  &trans &trans &trans &trans &trans           	 								&kp F20 &none   &kp F1  &kp F2 &kp F3  &kp F14 &kp F15
+				&trans  &trans &trans &trans &trans &trans      	    				 				&none &kp F7  &kp F8 &kp F9  &kp F10 &kp F11
+				&trans  &trans &trans &trans &trans &trans      	 					 				&none &kp F4  &kp F5 &kp F6  &kp F12 &kp F13
+				&trans  &trans &trans &trans &trans &trans           	 								&none &kp F1  &kp F2 &kp F3  &kp F14 &kp F15
 							   &trans &trans 				&trans &trans &trans		&trans &trans &trans					&trans &trans   
             >;
 		};
