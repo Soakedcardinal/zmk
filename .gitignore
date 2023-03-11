@@ -1,0 +1,4 @@
+keymap.code-workspace
+.vscode
+# binaries
+*.uf2
